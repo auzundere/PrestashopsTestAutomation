@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Presta shop smoke tests" verbose="2" parallel="tests" thread-count="2">
+	<test name="Smoke tests using opera">
+		<parameter name="browser" value="opera"></parameter>
+		<classes>
+			<class name="com.prestashop.tests.search.SearchTest"></class>
+			<class name="com.prestashop.tests.registration.LoginTests"></class>
+		</classes>
+	</test>
+	<test name="Smoke tests using chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.prestashop.tests.search.SearchTest"></class>
+			<class name="com.prestashop.tests.registration.LoginTests"></class>
+		</classes>
+	</test>
+</suite>

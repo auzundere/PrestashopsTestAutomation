@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Presta shop smoke tests]" parallel="tests">
+  <test thread-count="2" verbose="2" name="Smoke tests using firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.prestashop.tests.checkout.ProductCheckoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="productListing"/>
+          <include name="checkoutTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.checkout.ProductCheckoutTest -->
+      <class name="com.prestashop.tests.search.ProductDetailsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="productDetailsTest"/>
+          <include name="setUp"/>
+          <include name="anotherTEst"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.ProductDetailsTest -->
+      <class name="com.prestashop.tests.search.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.SearchTest -->
+      <class name="com.prestashop.tests.contactus.PhoneNumberTest">
+        <methods>
+          <include name="phoneNumberAreaTest"/>
+          <include name="tearDown"/>
+          <include name="priceTest"/>
+          <include name="setUp"/>
+          <include name="sendMessage"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.contactus.PhoneNumberTest -->
+      <class name="com.prestashop.tests.registration.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="positiveLoginTest"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.registration.LoginTests -->
+    </classes>
+  </test> <!-- Smoke tests using firefox(failed) -->
+  <test thread-count="2" verbose="2" name="Smoke tests using chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.prestashop.tests.checkout.ProductCheckoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="productListing"/>
+          <include name="checkoutTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.checkout.ProductCheckoutTest -->
+      <class name="com.prestashop.tests.search.ProductDetailsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="productDetailsTest"/>
+          <include name="setUp"/>
+          <include name="anotherTEst"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.ProductDetailsTest -->
+      <class name="com.prestashop.tests.search.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.SearchTest -->
+      <class name="com.prestashop.tests.contactus.PhoneNumberTest">
+        <methods>
+          <include name="phoneNumberAreaTest"/>
+          <include name="tearDown"/>
+          <include name="priceTest"/>
+          <include name="setUp"/>
+          <include name="sendMessage"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.contactus.PhoneNumberTest -->
+      <class name="com.prestashop.tests.registration.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="positiveLoginTest"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.registration.LoginTests -->
+    </classes>
+  </test> <!-- Smoke tests using chrome(failed) -->
+</suite> <!-- Failed suite [Presta shop smoke tests] -->

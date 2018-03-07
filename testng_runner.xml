@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Presta shop smoke tests" verbose="2" parallel="tests"
+	thread-count="2">
+	<test name="Smoke tests using firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<packages>
+			<package name=".*"></package>
+		</packages>
+	</test>
+	<test name="Smoke tests using chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<packages>
+			<package name=".*"></package>
+		</packages>
+	</test>
+
+</suite>
