@@ -33,10 +33,9 @@ public class TestBaseClass{
 		
 		return result;
 	}
-	public static String convertToDoubleBackToString(String price) {
+	public static double convertToDoubleBackToString(String price) {
 		price = price.replace("$", "");
-		Double priceD = Double.parseDouble(price);
-		return priceD.toString();
+		return Double.parseDouble(price);
 	}
 	
 }

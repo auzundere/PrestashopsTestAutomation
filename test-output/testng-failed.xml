@@ -6,7 +6,7 @@
       <class name="com.amazonaws.tests.AwsCalculatorTests">
         <methods>
           <include name="tearDown"/>
-          <include name="addingMachineTests"/>
+          <include name="clearFormTests"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.amazonaws.tests.AwsCalculatorTests -->

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2775" started-at="2018-03-07T02:59:10Z" finished-at="2018-03-07T02:59:13Z">
+  <suite name="Default suite" duration-ms="8670" started-at="2018-03-08T02:57:45Z" finished-at="2018-03-08T02:57:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2775" started-at="2018-03-07T02:59:10Z" finished-at="2018-03-07T02:59:13Z">
+    <test name="Default test" duration-ms="8670" started-at="2018-03-08T02:57:45Z" finished-at="2018-03-08T02:57:54Z">
       <class name="com.amazonaws.tests.AwsCalculatorTests">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="setUp" is-config="true" duration-ms="1200" started-at="2018-03-07T02:59:10Z" finished-at="2018-03-07T02:59:12Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="setUp" is-config="true" duration-ms="967" started-at="2018-03-08T02:57:45Z" finished-at="2018-03-08T02:57:46Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,15 +16,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="defaultMonthlyBillTest()[pri:0, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="defaultMonthlyBillTest" duration-ms="1092" started-at="2018-03-07T02:59:12Z" description="Monthly Bill should be $0.00 by default" finished-at="2018-03-07T02:59:13Z">
+        <test-method status="PASS" signature="defaultMonthlyBillTest()[pri:0, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="defaultMonthlyBillTest" duration-ms="1109" started-at="2018-03-08T02:57:46Z" description="Monthly Bill should be $0.00 by default" finished-at="2018-03-08T02:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defaultMonthlyBillTest -->
-        <test-method status="PASS" signature="addingMachineTests()[pri:1, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="addingMachineTests" duration-ms="461" started-at="2018-03-07T02:59:13Z" finished-at="2018-03-07T02:59:13Z">
+        <test-method status="PASS" signature="addingMachineTests()[pri:1, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="addingMachineTests" duration-ms="1207" started-at="2018-03-08T02:57:48Z" finished-at="2018-03-08T02:57:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingMachineTests -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-07T02:59:13Z" finished-at="2018-03-07T02:59:13Z">
+        <test-method status="PASS" signature="clearFormTests()[pri:2, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="clearFormTests" duration-ms="5353" started-at="2018-03-08T02:57:49Z" finished-at="2018-03-08T02:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFormTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazonaws.tests.AwsCalculatorTests@3b6ddd1d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-08T02:57:54Z" finished-at="2018-03-08T02:57:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
